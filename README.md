@@ -57,19 +57,19 @@ The program is divided into three Python files, each responsible for a different
 
    <ins>This function:</ins>
 
-    *Defines sets of characters (letters, numbers, symbols).
+    * Defines sets of characters (letters, numbers, symbols).
 
-    *Checks which character types are selected.
+    * Checks which character types are selected.
 
-    *Randomly selects characters using choice().
+    * Randomly selects characters using choice().
 
-    *Adds the characters to a list.
+    * Adds the characters to a list.
 
-    *Randomizes the order using shuffle().
+    * Randomizes the order using shuffle().
 
-    *Joins the characters into a final password string.
+    * Joins the characters into a final password string.
 
-    *The function then returns the generated password.
+    * The function then returns the generated password.
 
 - *maiin.py*
 
@@ -77,13 +77,13 @@ The program is divided into three Python files, each responsible for a different
  
    It performs the following tasks:
 
-    *Reads the user's selected options from the interface
+    * Reads the user's selected options from the interface
 
-    *Calls the password generation function
+    * Calls the password generation function
 
-    *Displays the generated password in the entry field
+    * Displays the generated password in the entry field
 
-    *When the user presses the "generate a password" button, the program runs the generate() function.
+    * When the user presses the "generate a password" button, the program runs the generate() function.
 
 Inputs
 ------
@@ -92,25 +92,25 @@ The program receives input from the user through the graphical interface.
 
 The inputs include:
 
-  -Checkbox selections
+  - Checkbox selections
 
-  -Lowercase letters
+  - Lowercase letters
 
-  -Numbers
+  - Numbers
 
-  -Uppercase letters
+  - Uppercase letters
 
-  -Special symbols
+  - Special symbols
 
-  -Spinbox values
+  - Spinbox values
 
-  -Number of lowercase letters
+  - Number of lowercase letters
 
-  -Number of numbers
+  - Number of numbers
 
-  -Number of uppercase letters
+  - Number of uppercase letters
 
-  -Number of symbols
+  - Number of symbols
 
 These inputs determine the structure and length of the generated password.
 
@@ -130,31 +130,31 @@ Algorithm Explanation
 
 The password generation algorithm works as follows:
 
- -Create an empty list called password.
+ 1. Create an empty list called password.
 
- -Define four groups of characters:
+ 2. Define four groups of characters:
 
-   *lowercase letters
+   * lowercase letters
 
-   *numbers
+   * numbers
 
-   *uppercase letters
+   * uppercase letters
 
-   *special symbols
+   * special symbols
 
--For each selected character type:
+3. For each selected character type:
 
-  *Repeat according to the selected number.
+  * Repeat according to the selected number.
 
-  *Randomly choose a character from the corresponding group.
+  * Randomly choose a character from the corresponding group.
 
-  *Add the character to the password list.
+  * Add the character to the password list.
 
--Shuffle the list to randomize the order.
+4. Shuffle the list to randomize the order.
 
--Join the characters together into a single string.
+5. Join the characters together into a single string.
 
--Return the final password.
+6. Return the final password.
 
 This algorithm ensures the password follows the user's selected requirements while remaining random.
 
