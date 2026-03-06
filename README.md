@@ -15,12 +15,12 @@ Many users choose passwords that are too short or predictable. This program allo
 3. Technologies Used
    -----------------
    
-<ins>Python<ins/>
+<ins>Python</ins>
 *Python* is the main programming language used to build the application. 
 
 IDE: *PyCharm* (2025.3.2.1)
 
-<ins>Tkinter<ins/>
+<ins>Tkinter</ins>
 *Tkinter* is used to create the graphical user interface. It allows the program to display checkboxes, spinboxes, buttons, and input fields so users can interact with the application easily.
 
 4. Program Structure
@@ -29,59 +29,59 @@ The program is divided into three Python files, each responsible for a different
 
 - *interface.py*
 
-This file creates the graphical user interface of the program.
+   This file creates the graphical user interface of the program.
 
-It includes:
+   It includes:
 
-The main window
+   The main window
 
-Checkboxes for selecting character types
+   Checkboxes for selecting character types
 
-Spinboxes for selecting the number of characters
+   Spinboxes for selecting the number of characters
 
-An entry field to display the generated password
+   An entry field to display the generated password
 
-A button to generate the password
+   A button to generate the password
 
-This file manages the layout and user input controls.
+   This file manages the layout and user input controls.
 
 - *parolchiki.py*
 
-This file contains the password generation algorithm.
+   This file contains the password generation algorithm.
 
-It defines the function:
+   It defines the function:
 
-generate_password(lowercase, numbers, uppercase, signs, num_1, num_2, num_3, num_4)
+   `generate_password(lowercase, numbers, uppercase, signs, num_1, num_2, num_3, num_4)`
 
-This function:
+   <ins>This function:</ins>
 
-Defines sets of characters (letters, numbers, symbols).
+   Defines sets of characters (letters, numbers, symbols).
 
-Checks which character types are selected.
+   Checks which character types are selected.
 
-Randomly selects characters using choice().
+   Randomly selects characters using choice().
 
-Adds the characters to a list.
+   Adds the characters to a list.
 
-Randomizes the order using shuffle().
+   Randomizes the order using shuffle().
 
-Joins the characters into a final password string.
+   Joins the characters into a final password string.
 
-The function then returns the generated password.
+   The function then returns the generated password.
 
 - *maiin.py*
 
-This file connects the user interface and password generator.
+   This file connects the user interface and password generator.
+ 
+   It performs the following tasks:
 
-It performs the following tasks:
+   Reads the user's selected options from the interface
 
-Reads the user's selected options from the interface
+   Calls the password generation function
 
-Calls the password generation function
+   Displays the generated password in the entry field
 
-Displays the generated password in the entry field
-
-When the user presses the "generate a password" button, the program runs the generate() function.
+   When the user presses the "generate a password" button, the program runs the generate() function.
 
 5. Inputs
    ------
@@ -119,7 +119,7 @@ The program outputs a randomly generated password.
 
 The generated password is displayed in the entry field of the application window after the user clicks the generate button.
 
-Example output:
+<ins>Example output:</ins>
 
 aF7!kP3@
 
@@ -161,7 +161,7 @@ This algorithm ensures the password follows the user's selected requirements whi
 
 To use the program:
 
-Run the *main.py* file.
+Run the `main.py` file.
 
 The program window will open.
 
