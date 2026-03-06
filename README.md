@@ -5,12 +5,24 @@ The purpose of this program is to generate a random password based on user prefe
 
 The program provides a graphical user interface (GUI) built using Tkinter so users can easily choose their options and generate a password.
 
+
 Problem the Project Solves
 --------------------------
    
 The project solves the problem of creating secure and customizable passwords.
 
 Many users choose passwords that are too short or predictable. This program allows users to generate random passwords with different character types and lengths. By including uppercase letters, lowercase letters, numbers, and symbols, the generated passwords become stronger and harder to guess.
+
+Creative performance task requirments
+------------------------------------
+
+- instructions for the input comes from the user
+
+- list is used to store separate characters of the password
+
+- name of the procedure is `generate_password()`. It takes 8 parameters: lowercase, numbers, uppercase, signs, num_1, num_2, num_3, num_4. And it returns the final password.
+
+- Algorithm includes sequence of 21 operations(LoC) not including return, selection in a form of *if condition*
 
 Technologies Used
 -----------------
@@ -163,17 +175,17 @@ How Users Can Get Started
 
 <ins>To use the program:</ins>
 
-Run the `main.py` file.
+1. Run the `main.py` file.
 
-The program window will open.
+2. The program window will open.
 
-Select the character types using the checkboxes.
+3. Select the character types using the checkboxes.
 
-Choose the number of characters for each type using the spinboxes.
+4. Choose the number of characters for each type using the spinboxes.
 
-Click the "generate a password" button.
+5. Click the `generate a password` button.
 
-The generated password will appear in the entry field.
+6. The generated password will appear in the entry field.
 
-Users can repeat this process to generate new passwords.
+7. Users can repeat this process to generate new passwords.
 
