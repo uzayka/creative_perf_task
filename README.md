@@ -134,21 +134,21 @@ The password generation algorithm works as follows:
 
  2. Define four groups of characters:
 
-   * lowercase letters
+    * lowercase letters
 
-   * numbers
+    * numbers
 
-   * uppercase letters
+    * uppercase letters
 
-   * special symbols
+    * special symbols
 
 3. For each selected character type:
 
-  * Repeat according to the selected number.
+   * Repeat according to the selected number.
 
-  * Randomly choose a character from the corresponding group.
+   * Randomly choose a character from the corresponding group.
 
-  * Add the character to the password list.
+   * Add the character to the password list.
 
 4. Shuffle the list to randomize the order.
 
