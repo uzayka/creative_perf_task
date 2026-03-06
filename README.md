@@ -15,12 +15,14 @@ Many users choose passwords that are too short or predictable. This program allo
 3. Technologies Used
    -----------------
    
-<ins>Python</ins>
+<ins>Python:</ins>
+
 *Python* is the main programming language used to build the application. 
 
 IDE: *PyCharm* (2025.3.2.1)
 
-<ins>Tkinter</ins>
+<ins>Tkinter:</ins>
+
 *Tkinter* is used to create the graphical user interface. It allows the program to display checkboxes, spinboxes, buttons, and input fields so users can interact with the application easily.
 
 4. Program Structure
@@ -119,9 +121,9 @@ The program outputs a randomly generated password.
 
 The generated password is displayed in the entry field of the application window after the user clicks the generate button.
 
-<ins>Example output:</ins>
+*Example output:*
 
-aF7!kP3@
+**aF7!kP3@**
 
 7. Algorithm Explanation
    ---------------------
