@@ -1,32 +1,32 @@
-1. Program Purpose
-   ---------------
+ Program Purpose
+ ---------------
    
 The purpose of this program is to generate a random password based on user preferences. The user can choose which types of characters the password should include, such as lowercase letters, uppercase letters, numbers, and special symbols. The user can also select how many characters of each type will be included.
 
 The program provides a graphical user interface (GUI) built using Tkinter so users can easily choose their options and generate a password.
 
-2. Problem the Project Solves
-   --------------------------
+Problem the Project Solves
+--------------------------
    
 The project solves the problem of creating secure and customizable passwords.
 
 Many users choose passwords that are too short or predictable. This program allows users to generate random passwords with different character types and lengths. By including uppercase letters, lowercase letters, numbers, and symbols, the generated passwords become stronger and harder to guess.
 
-3. Technologies Used
-   -----------------
+Technologies Used
+-----------------
    
 <ins>Python:</ins>
 
 *Python* is the main programming language used to build the application. 
 
-IDE: *PyCharm* (2025.3.2.1)
+IDE used for this project: *PyCharm* (2025.3.2.1)
 
 <ins>Tkinter:</ins>
 
 *Tkinter* is used to create the graphical user interface. It allows the program to display checkboxes, spinboxes, buttons, and input fields so users can interact with the application easily.
 
-4. Program Structure
-   -----------------
+Program Structure
+-----------------
 The program is divided into three Python files, each responsible for a different part of the program.
 
 - *interface.py*
@@ -57,19 +57,19 @@ The program is divided into three Python files, each responsible for a different
 
    <ins>This function:</ins>
 
-   Defines sets of characters (letters, numbers, symbols).
+    *Defines sets of characters (letters, numbers, symbols).
 
-   Checks which character types are selected.
+    *Checks which character types are selected.
 
-   Randomly selects characters using choice().
+    *Randomly selects characters using choice().
 
-   Adds the characters to a list.
+    *Adds the characters to a list.
 
-   Randomizes the order using shuffle().
+    *Randomizes the order using shuffle().
 
-   Joins the characters into a final password string.
+    *Joins the characters into a final password string.
 
-   The function then returns the generated password.
+    *The function then returns the generated password.
 
 - *maiin.py*
 
@@ -77,45 +77,45 @@ The program is divided into three Python files, each responsible for a different
  
    It performs the following tasks:
 
-   Reads the user's selected options from the interface
+    *Reads the user's selected options from the interface
 
-   Calls the password generation function
+    *Calls the password generation function
 
-   Displays the generated password in the entry field
+    *Displays the generated password in the entry field
 
-   When the user presses the "generate a password" button, the program runs the generate() function.
+    *When the user presses the "generate a password" button, the program runs the generate() function.
 
-5. Inputs
-   ------
+Inputs
+------
 
 The program receives input from the user through the graphical interface.
 
 The inputs include:
 
-Checkbox selections
+ *Checkbox selections
 
-Lowercase letters
+ *Lowercase letters
 
-Numbers
+ *Numbers
 
-Uppercase letters
+ *Uppercase letters
 
-Special symbols
+ *Special symbols
 
-Spinbox values
+ *Spinbox values
 
-Number of lowercase letters
+ *Number of lowercase letters
 
-Number of numbers
+ *Number of numbers
 
-Number of uppercase letters
+ *Number of uppercase letters
 
-Number of symbols
+ *Number of symbols
 
-These inputs determine the structure and length of the generated password.
+ *These inputs determine the structure and length of the generated password.
 
-6. Output
-   -------
+Output
+-------
 
 The program outputs a randomly generated password.
 
@@ -125,43 +125,43 @@ The generated password is displayed in the entry field of the application window
 
 **aF7!kP3@**
 
-7. Algorithm Explanation
-   ---------------------
+Algorithm Explanation
+---------------------
 
 The password generation algorithm works as follows:
 
-Create an empty list called password.
+ -Create an empty list called password.
 
-Define four groups of characters:
+ -Define four groups of characters:
 
-lowercase letters
+   *lowercase letters
 
-numbers
+   *numbers
 
-uppercase letters
+   *uppercase letters
 
-special symbols
+   *special symbols
 
-For each selected character type:
+-For each selected character type:
 
-Repeat according to the selected number.
+  *Repeat according to the selected number.
 
-Randomly choose a character from the corresponding group.
+  *Randomly choose a character from the corresponding group.
 
-Add the character to the password list.
+  *Add the character to the password list.
 
-Shuffle the list to randomize the order.
+-Shuffle the list to randomize the order.
 
-Join the characters together into a single string.
+-Join the characters together into a single string.
 
-Return the final password.
+-Return the final password.
 
 This algorithm ensures the password follows the user's selected requirements while remaining random.
 
-8. How Users Can Get Started
-   -------------------------
+How Users Can Get Started
+-------------------------
 
-To use the program:
+<ins>To use the program:</ins>
 
 Run the `main.py` file.
 
