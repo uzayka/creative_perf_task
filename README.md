@@ -92,27 +92,27 @@ The program receives input from the user through the graphical interface.
 
 The inputs include:
 
- *Checkbox selections
+  -Checkbox selections
 
- *Lowercase letters
+  -Lowercase letters
 
- *Numbers
+  -Numbers
 
- *Uppercase letters
+  -Uppercase letters
 
- *Special symbols
+  -Special symbols
 
- *Spinbox values
+  -Spinbox values
 
- *Number of lowercase letters
+  -Number of lowercase letters
 
- *Number of numbers
+  -Number of numbers
 
- *Number of uppercase letters
+  -Number of uppercase letters
 
- *Number of symbols
+  -Number of symbols
 
- *These inputs determine the structure and length of the generated password.
+These inputs determine the structure and length of the generated password.
 
 Output
 -------
