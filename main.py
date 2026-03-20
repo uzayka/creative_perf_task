@@ -14,7 +14,10 @@ def generate():
     state4 = signs.get()
     password = generate_password(state1, state2, state3, state4, num_1, num_2, num_3, num_4)
     enrt.insert(0, password)
+    message, color = check_safety(password)
+    lbl_safety.config(text=message, fg=color)
 
 bt1.config(command=generate)
+
 
 window.mainloop()
