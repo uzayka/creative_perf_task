@@ -1,7 +1,7 @@
 from random import choice, shuffle
 
 def generate_password(lowercase, numbers, uppercase, signs, num_1, num_2, num_3, num_4):
-    password = [] # List used to store randomly selected characters before combining into final password
+    password = [] 
     strk = 'qwertyuiopasdfghjklzxcvbnm'
     num = '1234567890'
     krts = 'QWERTYUIOPASDFGHJKLZXCVBNM'
